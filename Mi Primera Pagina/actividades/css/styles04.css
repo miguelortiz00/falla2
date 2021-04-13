@@ -1,0 +1,22 @@
+body { 
+	font-size: 16px;
+    font-family:'Arial', sans-serif;
+}
+header{
+    width: 90%;
+    max-width:1000px;
+    margin:20px auto;
+}
+tr {
+  margin: 15px;
+  padding: 15px;
+}
+  th,
+  tr,
+  table{
+    border: rgb(4, 0, 243) 3px solid;
+    
+    border: rgb(28, 180, 240) 3px solid;
+
+    text-align: center;
+  }

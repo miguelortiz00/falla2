@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Actividad 01</title>
+    <link rel="stylesheet" href="./css/styles01.css"/>
+    </head>
+    <body>
+        <h1>Talleres de Poesia</h1>
+        <p>Llevamos a cabo una serie de talleres y simposios de poesía durante todo el año</p>
+        <p>Tenga en cuenta que los siguientes eventos son gratuitos para los miembros de la comunidad</p>
+        <ul>
+            <li>Poesía Clasica</li>
+            <li>Realismo Magico</li>
+            <li>Obras de Nadaismo</li><br>
+            <table>
+                <tr class="head">
+                    <th></th>
+                    <th>Bogotá</th>
+                    <th>Ibagué</th>
+                    <th>Medellín</th>
+                </tr>
+                <tr>
+                    <th>Poesía Clásica</th>
+                    <td>Sab, 4 Feb 2020<br />11am - 2pm</td>
+                    <td>Sab, 3 Feb 2020<br />11am - 2pm</td>
+                    <td>Sab, 17 Feb 2020<br />11am - 2pm</td>
+                </tr>
+                <tr class="even">
+                    <th>Realismo Mágico</th>
+                    <td>Sab, 7 Abr 2020<br />11am - 1pm</td>
+                    <td>Sab, 5 May 2020<br />11am - 1pm</td>
+                    <td>Sab, 19 May 2020<br />11am - 1pm</td>
+                </tr>
+                <tr>
+                    <th>Obras de Nadaismo</th>
+                    <td>Sab, 9 Jun 2020<br />11am - 2pm</td>
+                    <td>Sab, 7 Jul 2020<br />11am - 2pm</td>
+                    <td>Sab, 21 Jul 2020<br />11am - 2pm</td>
+                </tr>
+                <tr class="even">
+                    <th>Nuevas Corrientes</th>
+                    <td>Sat, 4 Ago 2020<br />11am - 4pm</td>
+                    <td>Sat, 8 Sep 2020<br />11am - 4pm</td>
+                    <td>Sat, 15 Sep 2020<br />11am - 4pm</td>
+                </tr>
+            </table>
+            <form action="actividad_02.html" method="get">
+                <fieldset>
+                    <legend>Registrese en el taller de su interes:</legend>
+                    <p><label class="title" for="name">Su Nombre:</label>
+                        <input type="text" name="name" id="name"><br />
+                        <label class="title" for="email">Su correo:</label>
+                        <input type="text" name="email" id="email"></p>
+                        <p><label for="location" class="title">Su centro cercano:</label>
+                            <select name="location" id="location">
+                                <option value="bo">Bogotá</option>
+                                <option value="ib">Ibagué</option>
+                                <option value="me">Medellín</option>
+                            </select></p>
+                        <span class="title">Es Miembro de la Comunidad</span>
+                        <label><input type="radio" name="member" value="si" /> Si</label>
+                        <label><input type="radio" name="member" value="no" /> No</label></p>                        
+                </fieldset>
+                <div class="submit"><input type="submit" value="Registro"/></div>
+            </form>
+        </ul>
+    </body>
+    </html>>
